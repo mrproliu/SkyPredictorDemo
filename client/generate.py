@@ -62,7 +62,7 @@ def generate():
             destServiceName="e2e-test-dest-service",
             destServiceInstance="e2e-test-dest-service-instance",
             endpoint="e2e/test",
-            latency=random.randint(1900, 2100),
+            latency=random.randint(30, 200),
             responseCode=200,
             status=True,
             protocol=Protocol.HTTP,
